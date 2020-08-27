@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://www.wallpapertip.com/wmimgs/3-30459_photos-hd-drum-set-drum-set-wallpaper-hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
+
+.key{
+    border: solid 5px yellow;
+    border-radius: 2rem;
+    margin: 3rem;
+    padding: 10px;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
