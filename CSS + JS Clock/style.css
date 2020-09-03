@@ -37,12 +37,12 @@ body{
     background-color: #E9C46A;
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: all 0.5s;
+    transition: all 0.01s;
     transition-timing-function: ease-in-out;
 }
 
 .hand:nth-child(1){
-    background-color: #264653;
+    background-color: #F4A261;
     
 }
 
@@ -52,5 +52,7 @@ body{
 }
 
 .hand:nth-child(3){
-    background-color: #F4A261;
+    background-color:  #264653;
 }
+
+
