@@ -20,6 +20,8 @@ body{
     width: 30rem;
     height: 30rem;
     padding: 1rem;
+    position: relative;
+    top: 5%;
 }
 .clock-face{
     position: relative;
@@ -31,6 +33,24 @@ body{
     width: 50%;
     position: absolute;
     top: 50%; 
-    height: 6px;
+    height: 4px;
     background-color: #E9C46A;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.hand:nth-child(1){
+    background-color: #264653;
+    
+}
+
+.hand:nth-child(2){
+    background-color: #E76F51;
+    
+}
+
+.hand:nth-child(3){
+    background-color: #F4A261;
 }
