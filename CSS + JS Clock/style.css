@@ -55,4 +55,11 @@ body{
     background-color:  #264653;
 }
 
-
+.min{
+    width: 40%;  /*shrink the min hand*/
+    position: absolute;
+    top: 50%; 
+    margin-left: 48px; /*for centered*/
+    height: 4px;
+    
+}
