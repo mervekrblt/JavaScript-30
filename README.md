@@ -1,15 +1,18 @@
-** JAVASCRIPT 30 **
+**JAVASCRIPT 30**
+***
 
-This repository is based on JavaScript30 course by Wes Bos
+his repository is based on JavaScript30 course by Wes Bos
+***
 
-[](/Js-30.png)
+[JS-30](/Js-30.png)
+***
 
 | Day           | Challange     | Took On |
 | ------------- |:-------------:| -----:|
-| 1             | [JS DRUM KIT](/CSS+JSClock/index.html)| 28.08 - 01.09.2020 |
-| 2             | [JS + CSS CLOCK](https://mervekrblt.github.io/JavaScript-30/)| 01.09 - 03.09.2020 |
+| 1             | JS DRUM KIT| 28.08 - 01.09.2020 |
+| 2             | JS + CSS CLOCK| 01.09 - 03.09.2020 |
 
-[My Project](https://mervekrblt.github.io/JavaScript-30/)
+You can see my projects on **live demo** : **[My Project](https://mervekrblt.github.io/JavaScript-30/)**
 
 
 
