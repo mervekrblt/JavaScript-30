@@ -4,7 +4,7 @@
 This repository is based on JavaScript30 course by Wes Bos
 ***
 
-[Alt](/Js-30.png)
+![Alt](Js-30.png)
 ***
 
 | Day           | Challange     | Took On |
