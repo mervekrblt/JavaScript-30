@@ -8,6 +8,7 @@ body{
     display: flex;
     text-align: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .controls{
@@ -16,10 +17,9 @@ body{
 }
 
 input{
-    height: 10%;
     width: 200px;
 }
 
 img{
-    margin-left: 20%;
+    margin-top: 1%;
 }
