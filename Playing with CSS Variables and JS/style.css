@@ -1,13 +1,13 @@
 body{
     font-family: 'Pacifico', cursive;
     text-align: center;
-    font-size: 30;
+    font-size: 30px;
 }
 
 .align{
     display: flex;
     text-align: center;
-
+    flex-wrap: wrap;
 }
 
 .controls{
@@ -17,10 +17,9 @@ body{
 
 input{
     height: 10%;
+    width: 200px;
 }
 
-div img{
-    display: flex;
-    justify-items: center;
+img{
     margin-left: 20%;
 }

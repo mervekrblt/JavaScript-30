@@ -59,7 +59,7 @@ body{
     width: 40%;  /*shrink the min hand*/
     position: absolute;
     top: 50%; 
-    margin-left: 48px; /*for centered*/
+    margin-left: 10%; /*for centered*/
     height: 4px;
     
 }
