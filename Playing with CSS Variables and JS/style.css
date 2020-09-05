@@ -1,0 +1,26 @@
+body{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 30;
+}
+
+.align{
+    display: flex;
+    text-align: center;
+
+}
+
+.controls{
+    display:grid;
+    justify-items: start;
+}
+
+input{
+    height: 10%;
+}
+
+div img{
+    display: flex;
+    justify-items: center;
+    margin-left: 20%;
+}
