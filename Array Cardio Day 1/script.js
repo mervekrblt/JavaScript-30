@@ -104,3 +104,72 @@ console.table(names)
 
 const oldestToYoungest = inventors.sort((a,b) => a.year> b.year ? 1 : -1) 
 console.table(oldestToYoungest)
+
+//REDUCE
+
+// Array.prototype.reduce()
+// 4. How many years did all the inventors live?
+
+const totalYears = inventors.reduce((total ,inventor) => {
+  return total + (inventor.passed - inventor.year)}, 0
+ )
+
+ console.log(totalYears)
+/*  
+THIS IS ANOTHER REDUCE EXERCISE ABOUT FINDING MAX VALUE IN ARRAY AND YOU CAN SEE HOW REDUCE WORKS BY CONSOLE.LOG(A,B)
+  
+
+console.log(totalYears)
+
+  let vals = [1 , 2, 3 ,90, 100, 0]
+
+  let biggest = vals.reduce((a, b) =>  
+  {console.table(a, b)
+  return  b>a ? b: a}, 0
+  )
+console.log(biggest) */
+
+// ANOTHER SORT EXERCISE
+
+// 5. Sort the inventors by years lived
+
+const oldest = inventors.sort((a,b) => {
+ const lastGuy = a.passed - a.year
+ const firstGuy = b.passed - b.year
+ return lastGuy>firstGuy ? -1 :1} 
+)
+
+console.table(oldest)
+
+// ANITHER SORT EXERCISE WITH SPLIT
+
+// 7. sort Exercise
+// Sort the people alphabetically by last name
+
+const byLast = people.sort((lastOne, nextOne) => {
+  const [aLast, aFirst ] = lastOne.split(', ')
+  const [bLast, bFirst ] = nextOne.split(', ')
+  /*console.log(aLast,aFirst) 
+  console.log(bLast,bFirst) */
+  return aLast > bLast ? 1 : -1
+})
+
+console.table(byLast)
+
+//ANOTHER REDUCE EXERCISE
+
+// 8. Reduce Exercise
+// Sum up the instances of each of these
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck']
+
+const howMany = data.reduce(function(a,b){
+  if(!a[b]){
+   a[b] = 0
+  }
+  a[b] ++
+  return a
+  
+},{})
+
+console.log(howMany)
+  
