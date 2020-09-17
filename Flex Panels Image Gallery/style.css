@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+.panel{
+display: flex;
+flex: 1;
+flex-direction: column;
+background-color: darkblue;
+border: solid red 1px;
+align-items: center;
+justify-content: center;
+}
+
+.panels{
+    min-height: 100vh;
+    display: flex; 
+}
