@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    margin: 10% ;
+    min-width: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    border: solid red 1px;
+    width: 33.3333%;
+    height: 10rem;
+}
