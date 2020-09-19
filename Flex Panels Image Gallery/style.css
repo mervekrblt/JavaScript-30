@@ -1,18 +1,43 @@
+.panel1 { background-image:url(https://i1.wp.com/www.filmloverss.com/wp-content/uploads/2017/10/my-neighbor-totoro-filmloverss.jpg?fit=900%2C600&ssl=1); }
+.panel2 { background-image:url(https://data.whicdn.com/images/66423746/original.jpg); }
+.panel3 { background-image:url(https://f0.pngfuel.com/png/674/573/sailor-moon-sailor-venus-sailor-mars-sailor-mercury-sailor-jupiter-sailor-moon-png-clip-art.png); }
+.panel4 { background-image:url(https://i.pinimg.com/originals/28/d9/ed/28d9ed4e87c0b811c30f401eb66fbe4d.jpg); }
+.panel5 { background-image:url(https://fantazya.org/wp-content/uploads/2016/10/spirited-away.jpg); }
+
 body{
     margin: 0;
 }
 
+html {
+    box-sizing: border-box;
+    background: #ffc600;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+  }
+
 .panel{
-display: flex;
-flex: 1;
+display: flex; /*this makes child elemans flex-item*/
+flex: 1; /*each of them are equal size*/
 flex-direction: column;
-background-color: darkblue;
-border: solid red 1px;
-align-items: center;
-justify-content: center;
+align-items: center; /* center (x-axis)*/
+justify-content: center; /*center (y-axis)*/
+background-size: cover;
+background-position: center
 }
 
 .panels{
     min-height: 100vh;
     display: flex; 
+}
+
+div p{
+    width: 100px;
+    border: solid 1px red;
+    text-align: center;
+    flex: 1 0 auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
