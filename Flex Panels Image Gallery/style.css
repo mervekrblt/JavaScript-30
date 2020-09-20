@@ -28,16 +28,39 @@ background-position: center
 
 .panels{
     min-height: 100vh;
-    display: flex; 
+    display: flex;
+    overflow: hidden; /*this is help to hidden up and down animation */
 }
 
 div p{
     width: 100px;
-    border: solid 1px red;
     text-align: center;
     flex: 1 0 auto;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.5s;
+    font-family: 'Amatic SC', cursive;
+}
+
+.panel.open{
+    flex: 5;
+    font-size: 40px;
+}
+
+.panel > *:first-child{  /*This makes first column is unvisiable*/
+    transform: translateY(-100%);
+}
+
+.panel.open-active > *:first-child{  /*We will add code when click the image .open-active class is added in panel (by javascript, event listener)*/
+    transform: translateY(0);
+}
+
+.panel > *:last-child{
+    transform: translateY(100%);
+}
+
+.panel.open-active > *:last-child{
+    transform: translateY(0);
 }
