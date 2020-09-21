@@ -1,0 +1,31 @@
+html{
+    font-family: 'Caveat', cursive;
+    font-size: 50px
+}
+
+body{
+    background-image: url(https://miro.medium.com/max/648/1*zW_Q1yUS4BJNVL6ibA6Q5Q.jpeg);
+    background-size: cover;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input.search {
+    font-family: 'Caveat', cursive;
+    border: black 2px solid;
+    height: 1rem;
+    width: 10rem;
+    font-size: 50px;
+    text-align: center;
+    
+  }
+
