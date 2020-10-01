@@ -25,7 +25,17 @@ search.addEventListener('keyup', displayMatches)
 function displayMatches(){
  const matchArray = findMatches(this.value, cities)
  const html = matchArray.map(place =>{
-     return`<li>${place.city}, ${place.state}, ${place.population}</li>`
+
+    const regex = new RegExp(this.value, 'gi') // for highlight
+
+    const cityName = place.city.replace(regex, `<span class="h1">${this.value}</span>`) //for highlight
+    const stateName = place.state.replace(regex, `<span class="h1">${this.value}</span>`) //for highlight
+
+     return`<li>${cityName}, ${stateName}, ${numberWithCommas(place.population)}</li>`
  }).join('') // this helped me to delete commas between each place !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    suggestions.innerHTML = html
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
