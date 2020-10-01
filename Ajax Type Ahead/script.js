@@ -16,3 +16,16 @@ function findMatches(wordToMatch, cities){
         return place.city.match(regex) || place.state.match(regex) //need a variable in (), because it is changed by user
     })
 }
+
+const search = document.querySelector('.search')
+const suggestions = document.querySelector('.suggestions')
+search.addEventListener('click', displayMatches)
+search.addEventListener('keyup', displayMatches)
+
+function displayMatches(){
+ const matchArray = findMatches(this.value, cities)
+ const html = matchArray.map(place =>{
+     return`<li>${place.city}, ${place.state}, ${place.population}</li>`
+ }).join('') // this helped me to delete commas between each place !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   suggestions.innerHTML = html
+}

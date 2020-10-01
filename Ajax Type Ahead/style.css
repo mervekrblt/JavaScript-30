@@ -6,6 +6,7 @@ html{
 body{
     background-image: url(https://miro.medium.com/max/648/1*zW_Q1yUS4BJNVL6ibA6Q5Q.jpeg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -28,4 +29,3 @@ input.search {
     text-align: center;
     
   }
-
