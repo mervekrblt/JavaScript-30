@@ -15,6 +15,8 @@ This repository is based on JavaScript30 course by Wes Bos
 | 4             | ARRAY CARDIO DAY 1|  16.09.2020 | - |
 | 5             | FLEX PANELS IMAGE GALLERY|  17.09 - 20.09.2020 | Images, I didn't write another function for transition |
 | 6             | AJAX TYPE AHEAD|  21.09 - 01.10.2020 | All interface |
+| 7             | ARRAY CARDIO DAY 2|  05.10.2020 | - |
+| 8             | FUN WITH HTML5 CANVAS|  06.10 - 07.10.2020 | Background, pick color from palette, erase button |
 
 
 You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-30/)*
