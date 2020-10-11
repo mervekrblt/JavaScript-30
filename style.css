@@ -9,7 +9,17 @@
 }
 
 .box{
-    border: solid red 1px;
+    border: solid black 1px;
     width: 33.3333%;
     height: 10rem;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html, body{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
 }

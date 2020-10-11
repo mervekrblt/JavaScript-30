@@ -17,6 +17,7 @@ This repository is based on JavaScript30 course by Wes Bos
 | 6             | AJAX TYPE AHEAD|  21.09 - 01.10.2020 | All interface |
 | 7             | ARRAY CARDIO DAY 2|  05.10.2020 | - |
 | 8             | FUN WITH HTML5 CANVAS|  06.10 - 07.10.2020 | Background, pick color from palette, erase button |
+| 9             | 14 MUST KNOW DEV TOOLS TRICKS|  11.10.2020 | - |
 
 
 You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-30/)*
