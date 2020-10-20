@@ -57,3 +57,19 @@ fullScreen.addEventListener('click', function () {
 })
 
 // Spent 2 days to solve fullscreen function, my mistake is using else rather than using another if statement
+
+//PROGRESS BAR
+ function handleProgress(){
+     const percent = video.currentTime/ video.duration *100
+     progressBar.style.flexBasis = `${percent}%`
+ }
+
+ video.addEventListener('timeupdate', handleProgress)
+
+ //SCRUB 
+ function scrub(e){
+     const scrubTime = e.offsetX / progress.offsetWidth * video.duration
+     video.currentTime = scrubTime
+ }
+
+ progress.addEventListener('click', scrub)
