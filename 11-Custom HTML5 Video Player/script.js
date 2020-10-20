@@ -7,7 +7,6 @@ const skipButtons = document.querySelectorAll('[data-skip]')
 const ranges = document.querySelectorAll('.player__slider')
 
 const fullScreen = document.querySelector('.fullScreen')
-const exit =document.querySelector('.exit')
 
 //PLAY - PAUSE FUNCTION
 function togglePlay() {
@@ -46,35 +45,15 @@ function skip() {
 ranges.forEach(range => range.addEventListener('change', skip))
 
 
-
 //FULL SCREEN 
-// fullScreen.addEventListener('click', function () {
-    
-//     if (player.requestFullscreen) {
-//         player.requestFullscreen();
-//     } else  document.exitFullscreen();
-        
-// })
+fullScreen.addEventListener('click', function () {
+    if (player.requestFullscreen) {
+        player.requestFullscreen();
+    }
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    }
 
-// exit.addEventListener('click', function(){
-//     if(document.exitFullscreen) {
-//         document.exitFullscreen();
-//       } else if(document.mozCancelFullScreen) {
-//         document.mozCancelFullScreen();
-//       } else if(document.webkitExitFullscreen) {
-//         document.webkitExitFullscreen();
-//       }
+})
 
-// })
-
-
-// else if (player.mozRequestFullScreen) {
-//     /* Firefox */
-//     player.mozRequestFullScreen();
-// } else if (player.webkitRequestFullscreen) {
-//     /* Chrome, Safari & Opera */
-//     player.webkitRequestFullscreen();
-// } else if (player.msRequestFullscreen) {
-//     /* IE/Edge */
-//     player.msRequestFullscreen();
-// }
+// Spent 2 days to solve fullscreen function, my mistake is using else rather than using another if statement

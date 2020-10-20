@@ -171,3 +171,15 @@ input[type=range]::-moz-range-thumb {
     background: #ffc600;
     cursor: pointer;
 }
+
+.fullScreen{
+    background: none;
+    border: 0;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    max-width: 50px;
+}
