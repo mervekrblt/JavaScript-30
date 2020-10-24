@@ -1,22 +1,25 @@
 .container{
     display: flex;
-    margin: 10% ;
+    margin: 10% 10% ;
     min-width: 100vh;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .box{
-    border: solid black 1px;
-    width: 33.3333%;
+    
+
+    width: calc(33.33333% - 22px); /*20px marginden 2px borderdan*/
+    margin: 10px;
+    text-align: center;
     height: 10rem;
-    margin: 50px;
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 1rem;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
+
 
 .html, body{
     font-size: 20px;
