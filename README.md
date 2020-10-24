@@ -19,6 +19,7 @@ This repository is based on JavaScript30 course by Wes Bos
 | 8             | FUN WITH HTML5 CANVAS|  06.10 - 07.10.2020 | Background, pick color from palette, erase button |
 | 9             | 14 MUST KNOW DEV TOOLS TRICKS|  11.10.2020 | - |
 | 10            | HOLD SHIFT AND CHECK CHECKBOXES| 12.10 - 13.10.2020 | - |
+| 11            | CUSTOM HTML5 VIDEO PLAYER| 16.10 - 21.10.2020 | Video, fullscreen and exit button, dont show progress bar |
 
 
 You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-30/)*
