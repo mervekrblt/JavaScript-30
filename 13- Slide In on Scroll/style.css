@@ -1,0 +1,27 @@
+html{
+    font-family: 'Syne Tactile', cursive;
+    background-color: lightcoral;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.site-wrap {
+    text-align: justify;
+    max-width: 700px;
+    margin: 25% ;
+    border: black 2px solid;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.align-left {
+    float: left;
+    margin-right: 50px;
+}
+
+.align-right {
+    float: right;
+    margin-left: 50px;
+}
