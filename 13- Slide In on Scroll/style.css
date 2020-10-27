@@ -1,8 +1,9 @@
-html{
+html {
     font-family: 'Syne Tactile', cursive;
     background-color: lightcoral;
 }
-h1{
+
+h1 {
     display: flex;
     justify-content: center;
 }
@@ -10,7 +11,7 @@ h1{
 .site-wrap {
     text-align: justify;
     max-width: 700px;
-    margin: 25% ;
+    margin: 25%;
     border: black 2px solid;
     background-color: blanchedalmond;
     padding: 20px;
@@ -24,4 +25,22 @@ h1{
 .align-right {
     float: right;
     margin-left: 50px;
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.align-left.slide-in {
+    transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+    transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
 }
