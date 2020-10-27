@@ -21,6 +21,7 @@ This repository is based on JavaScript30 course by Wes Bos
 | 10            | HOLD SHIFT AND CHECK CHECKBOXES| 12.10 - 13.10.2020 | - |
 | 11            | CUSTOM HTML5 VIDEO PLAYER| 16.10 - 21.10.2020 | Video, fullscreen and exit button, dont show progress bar |
 | 12            | KONAMI| 24.10.2020 | - |
+| 13            | SLIDE IN ON SCROLL| 26 - 27.10.2020 | - |
 
 
 You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-30/)*
