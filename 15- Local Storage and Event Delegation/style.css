@@ -1,0 +1,31 @@
+html{
+    background-image: url(https://otelv6.demobul.net/tema/genel/uploads/hizmetler/_a1a8429.jpg);
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.container{
+    border: 2px solid black;
+    min-height: 100%;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul li{
+    margin-left: 4rem;
+    list-style: none;
+    border-bottom: orange 1px solid;
+    max-width: 10rem;
+}
+
