@@ -1,18 +1,19 @@
-html{
+html {
     background-image: url(https://otelv6.demobul.net/tema/genel/uploads/hizmetler/_a1a8429.jpg);
     background-position: center;
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
     display: flex;
     justify-content: center;
+    background-size: cover;
 }
 
-img{
+img {
     max-width: 100px;
     max-height: 100px;
 }
 
-.container{
+.container {
     border: 2px solid black;
     min-height: 100%;
     min-width: 500px;
@@ -22,10 +23,19 @@ img{
     text-align: center;
 }
 
-ul li{
+
+ul li {
     margin-left: 4rem;
     list-style: none;
     border-bottom: orange 1px solid;
     max-width: 10rem;
+    display: flex;
+    align-items: baseline ;
+    justify-content: space-around;
+}
+
+input:checked + label{
+    text-decoration: line-through;
+    text-decoration-style: wavy;
 }
 
