@@ -31,7 +31,6 @@ ul li {
     max-width: 10rem;
     display: flex;
     align-items: baseline ;
-    justify-content: space-around;
 }
 
 input:checked + label{
