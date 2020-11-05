@@ -1,0 +1,17 @@
+html{
+    margin: 0 0 0 0;
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.eyes{
+    margin-right: 10px;
+    text-shadow: 10px 10px 2px rgba(0,0,0,1);
+}
