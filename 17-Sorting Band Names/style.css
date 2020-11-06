@@ -1,0 +1,21 @@
+html{
+    background-image: url(https://iasbh.tmgrup.com.tr/06d0dc/1200/627/0/69/1026/607?u=https://isbh.tmgrup.com.tr/sbh/2020/05/21/sakura-ne-demek-sakura-nedir-ne-anlama-geliyor-1590081345751.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul{
+    border: 5px solid salmon;
+    box-shadow: 10px 10px 0 rgb(255, 45, 69, 0.4);
+    min-width: 200px;
+    list-style: none;
+}
