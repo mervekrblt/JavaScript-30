@@ -2,6 +2,8 @@
 ***
 
 This repository is based on JavaScript30 course by Wes Bos
+
+You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-30/)*
 ***
 
 ![Alt](Js-30.png)
@@ -24,9 +26,10 @@ This repository is based on JavaScript30 course by Wes Bos
 | 13            | SLIDE IN ON SCROLL| 26 - 27.10.2020 | - |
 | 14            | REFERENCE VS COPY| 29.10.2020 | - |
 | 15            | LOCAL STORAGE AND EVENT DELEGATION| 30.10 - 03.11.2020 | Style of the page, checked styling |
+| 16            | Mouse Move Effect| 05 - 06.11.2020 | - |
 
 
-You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-30/)*
+
 
 
 
