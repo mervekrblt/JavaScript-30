@@ -2,6 +2,10 @@ html{
     margin: 0 0 0 0;
     font-family: 'Anton', sans-serif;
     font-size: xx-large;
+    background-image: url(https://www.periodicodaily.com/wp-content/uploads/2020/06/IMG_20200625_072904_158.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
 }
 
 div{
@@ -12,7 +16,6 @@ div{
 }
 
 h1{
-    background-color: salmon;
     display: inline;
 }
 
