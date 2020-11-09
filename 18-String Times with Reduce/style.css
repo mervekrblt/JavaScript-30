@@ -1,0 +1,31 @@
+html{
+    background-image: url(https://3.bp.blogspot.com/-ttbyZWkRyJQ/Tj4St30M9sI/AAAAAAAAAyA/LGAO5PUfqeo/w1200-h630-p-k-no-nu/ameliepoulain03.jpeg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    max-width: 80%;
+    background-color: rgba(255, 255, 255, 0.20)
+}
+
+li {
+    list-style: none;
+    margin: 0.33em;
+    width: 15%;
+    height: 40px;
+}
