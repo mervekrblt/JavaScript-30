@@ -6,6 +6,5 @@ The aims of this lecture are
 - about how to access data-key with javascript
 - how to use map(), reduce() and calculate hour, min and second respectively
 
-I love Amelie <3
 ![Alt](Amelie.png)
-
+I love Amelie <3

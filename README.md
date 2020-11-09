@@ -27,6 +27,9 @@ You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-
 | 14            | REFERENCE VS COPY| 29.10.2020 | - |
 | 15            | LOCAL STORAGE AND EVENT DELEGATION| 30.10 - 03.11.2020 | Style of the page, checked styling |
 | 16            | Mouse Move Effect| 05 - 06.11.2020 | - |
+| 17            | Sorting Band Names| 06.11.2020 | Background, text|
+| 18            | String Times with Reduce| 09.11.2020 | I added style  |
+
 
 
 
