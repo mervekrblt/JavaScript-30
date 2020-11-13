@@ -30,6 +30,7 @@ You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-
 | 17            | Sorting Band Names| 06.11.2020 | Background, text|
 | 18            | String Times with Reduce| 09.11.2020 | I added style  |
 | 19            | Unreal Webcam Fun| 10 - 12.11.2020 | Without rgb manipulation  |
+| 20            | Speech Recognition| 13.11.2020 | Add delete all button, some magic <3  |
 
 
 
