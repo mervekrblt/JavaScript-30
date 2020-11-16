@@ -32,6 +32,7 @@ You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-
 | 19            | Unreal Webcam Fun| 10 - 12.11.2020 | Without rgb manipulation  |
 | 20            | Speech Recognition| 13.11.2020 | Add delete all button, some magic <3  |
 | 21            | Compass| 15.11.2020 | -  |
+| 22            | Follow Along Links| 16.11.2020 |Background, colors and coordinates code  |
 
 
 
