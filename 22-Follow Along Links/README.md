@@ -10,4 +10,4 @@ The aims of this lecture are
 
 :link:
 
-[live demo](http://127.0.0.1:5501/22-Follow%20Along%20Links/index.html)
+[live demo](https://mervekrblt.github.io/JavaScript-30/22-Follow%20Along%20Links/index.html)
