@@ -13,13 +13,30 @@ msg.text = document.querySelector('[name="text"]').value
 
 function populateVoices(e) {
     voices = this.getVoices() //add voices into array. This refers to speechSynthesis
-    console.log(voices)
 
-    const languageOptions = voices
+    voicesDropdown.innerHTML = voices
         .map(voice => `<option value="${voice.name}">${voice.name}</option>`)
         .join('');
+}
 
-    voicesDropdown.innerHTML = languageOptions
+function setVoice(){
+    //select voice 
+   msg.voice = voices.find(voice => voice.name === this.value)
+   toogle()
+}
+
+function toogle(){
+    speechSynthesis.cancel()
+    speechSynthesis.speak(msg)
+}
+
+function setOption(){
+    msg[this.name] = this.value
+    toogle()
 }
 
 speechSynthesis.addEventListener('voiceschanged', populateVoices)
+voicesDropdown.addEventListener('change', setVoice)
+options.forEach(option => option.addEventListener('change', setOption))
+speakButton.addEventListener('click', toogle)
+stopButton.addEventListener('click', ()=>{speechSynthesis.cancel(msg)})
