@@ -8,7 +8,7 @@ The aims of this lecture are
 
 [live demo](https://mervekrblt.github.io/JavaScript-30/24-Sticky%20Nav/index.html)
 
-![before](before.png)
-![after](after.png)
+![](before.png)
+![](after.png)
 
 :nine::zero: ' S
