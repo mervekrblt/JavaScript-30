@@ -34,6 +34,7 @@ You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-
 | 21            | Compass| 15.11.2020 | -  |
 | 22            | Follow Along Links| 16.11.2020 |Background, colors and coordinates code  |
 | 23            | Speech Synthesis| 17 - 18.11.2020 | -  |
+| 24            | Sticky Nav| 20.11.2020 |Background, change background image with clicking links  |
 
 
 
