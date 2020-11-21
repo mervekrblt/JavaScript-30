@@ -35,6 +35,7 @@ You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-
 | 22            | Follow Along Links| 16.11.2020 |Background, colors and coordinates code  |
 | 23            | Speech Synthesis| 17 - 18.11.2020 | -  |
 | 24            | Sticky Nav| 20.11.2020 |Background, change background image with clicking links  |
+| 25            | Event Capture| 21.11.2020 |Add click button with once:true att. |
 
 
 
