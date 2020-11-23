@@ -1,8 +1,89 @@
-body{
+body {
     background-image: url(https://i.pinimg.com/originals/61/2b/8c/612b8c27f15c63c08052d8de2c1bb15b.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Pacifico', cursive;
     font-size: x-large;
+}
+
+/*just select a elements where the parents are li and cool respectively*/
+.cool>li>a {
+    color: rgb(173, 55, 95);
+    text-decoration: none;
+    font-size: 30px;
+    background: rgba(197, 29, 127, 0.2);
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.cool>li {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    padding: 20px;
+    top: -20px;
+    border-radius: 2px;
+    transition: all 0.5s;
+    transform: translateY(100px);
+    will-change: opacity;
+    display: none;
+}
+
+.trigger-enter .dropdown {
+    display: block;
+}
+
+.trigger-enter-active .dropdown {
+    opacity: 1;
+}
+
+.dropdownBackground {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    transition: all 0.3s, opacity 0.1s, transform 0.2s;
+    transform-origin: 50% 0;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.dropdownBackground.open {
+    opacity: 1;
+}
+
+.bio {
+    max-width: 500px;
+    line-height: 1.7;
+}
+
+.courses {
+    max-width: 300px;
+}
+
+.courses li {
+    padding: 10px 0;
+    display: block;
 }
