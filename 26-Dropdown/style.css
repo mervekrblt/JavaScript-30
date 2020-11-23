@@ -8,6 +8,7 @@ body {
 }
 
 /*just select a elements where the parents are li and cool respectively*/
+
 .cool>li>a {
     color: rgb(173, 55, 95);
     text-decoration: none;
@@ -19,20 +20,18 @@ body {
     border-radius: 5px;
 }
 
-
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 
 
-.cool>li {
+.cool > li {
+    position: relative;
     display: flex;
     justify-content: center;
+    
 }
 
 .dropdown {
@@ -40,11 +39,10 @@ nav ul {
     position: absolute;
     overflow: hidden;
     padding: 20px;
-    top: -20px;
     border-radius: 2px;
     transition: all 0.5s;
     transform: translateY(100px);
-    will-change: opacity;
+    will-change: transform;
     display: none;
 }
 
@@ -71,19 +69,30 @@ nav ul {
 }
 
 .dropdownBackground.open {
-    opacity: 1;
+    opacity: 0.4;
 }
 
 .bio {
-    max-width: 500px;
+    min-width: 250px;
     line-height: 1.7;
 }
 
 .courses {
-    max-width: 300px;
+    min-width: 300px;
 }
 
 .courses li {
     padding: 10px 0;
     display: block;
 }
+
+.dropdown >li{
+    list-style: none;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+

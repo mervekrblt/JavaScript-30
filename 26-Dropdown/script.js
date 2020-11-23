@@ -17,9 +17,13 @@ function handleEnter(){
     const dropdown = this.querySelector('.dropdown') 
     // get coordinates of dropdown
     const dropdownCoords = dropdown.getBoundingClientRect()
+    // I dont use nav coordinates, I defined div which has background class outside of nav
+
     background.style.setProperty('height', `${dropdownCoords.height}px`)
     background.style.setProperty('width', `${dropdownCoords.width}px`)
-    // continue here
+    background.style.setProperty('left', `${dropdownCoords.left}px`)
+    background.style.setProperty('top', `${dropdownCoords.top}px`)
+    
 }
 
 //When mouse leave the link
