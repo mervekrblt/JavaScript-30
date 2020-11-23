@@ -36,6 +36,7 @@ You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-
 | 23            | Speech Synthesis| 17 - 18.11.2020 | -  |
 | 24            | Sticky Nav| 20.11.2020 |Background, change background image with clicking links  |
 | 25            | Event Capture| 21.11.2020 |Add click button with once:true att. |
+| 26            | Dropdown| 22 - 23.11.2020 |Dont use nav coordinates, use click instead of mouseenter, add icons  |
 
 
 
