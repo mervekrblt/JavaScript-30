@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/81iJG1qwQ3L._AC_SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.items {
+    height: 300px;
+    padding: 100px;
+    width: 100%;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+
+    transition: 0.5s;
+    transform: scale(0.95);
+
+    /*without wrap*/
+    display: flex;
+    align-items: center;
+}
+
+/*Scrollbar is hiddened*/
+.items::-webkit-scrollbar {
+    display: none;
+}
+
+.items.active {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.item {
+    margin-right: 300px;
+
+    /*Use min-width otherwise it doesnt change*/
+    min-width: 300px;
+    height: 300px;
+
+
+    font-size: 80px;
+    font-weight: 100;
+
+    /*text are centered*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
