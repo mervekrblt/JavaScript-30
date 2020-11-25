@@ -11,5 +11,35 @@ body {
 }
 
 .container {
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    /*default is row, make it column*/
+    justify-content: space-around;
+    /*main axis is y */
+    min-height: 600px;
+    /*give min-height to apply align items, oterwise it doesnt work*/
+    align-items: center;
+    /*across axis is x*/
+}
+
+.speed {
+    background: rgb(22, 21, 21);
+    width: 400px;
+    /*just use width, not with max or min, because align-items center makes that circle*/
+    border-radius: 50px;
+    box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+
+}
+
+.speed-bar {
+    width: 16.3%; /*for progress bar*/
+    background: rgb(102, 78, 78);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
