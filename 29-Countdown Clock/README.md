@@ -8,7 +8,7 @@ The aims of this lecture are
 - Create a timer
 
 
-[You can listen a lovely French song just click here](https://mervekrblt.githu addb.io/JavaScript-30/29-Countdown%20Clock/index.html)
+[live demo](https://mervekrblt.github.io/JavaScript-30/29-Countdown%20Clock/index.html)
 
 ![](timer.png)
 
