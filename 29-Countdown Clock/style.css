@@ -46,5 +46,29 @@ body {
 }
 
 input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: xx-large;
+  color: antiquewhite;
   text-align: center;
+}
+
+.setButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: xx-large;
+  color: antiquewhite;
+}
+
+.setButton:hover {
+  background: rgba(0, 0, 0, 0.2);
+  outline: 0;
 }
