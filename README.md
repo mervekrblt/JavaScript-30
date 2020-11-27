@@ -39,6 +39,7 @@ You can see my projects on *[LIVE DEMO](https://mervekrblt.github.io/JavaScript-
 | 26            | Dropdown| 22 - 23.11.2020 |Dont use nav coordinates, use click instead of mouseenter, add icons  |
 | 27            | Click and Drag| 24.11.2020 |Show anime and animations instead of numbers, hidden x-scrollbar, use `display:flex` instead of `white-space: nowrap` |
 | 28            | Video Speed Controller| 25.11.2020 |Change position of bar, change all height variables with width variables, use click event instead of mouse move  |
+| 29            | Countdown Clock| 27.11.2020 |Use another button to set input value, background, change functions little bit |
 
 
 
